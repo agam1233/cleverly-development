@@ -119,8 +119,9 @@ HTML_TEMPLATE = """
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <style>
 :root{--bg:radial-gradient(circle at top,#0f172a 0%,#020617 100%);--glass:rgba(15,23,42,0.6);--border:rgba(255,255,255,0.08);--accent:#6366f1}
-body{margin:0;padding:0;background:var(--bg);color:#e2e8f0;font-family:Inter,system-ui,sans-serif;height:100vh;display:flex;overflow:hidden}
-.sidebar{width:260px;background:rgba(0,0,0,0.28);border-right:1px solid var(--border);padding:20px;backdrop-filter:blur(8px);display:flex;flex-direction:column}
+body{margin:0;padding:0;background:var(--bg);color:#e2e8f0;font-family:Inter,system-ui,sans-serif;min-height:100vh;display:flex;overflow:hidden}
+.sidebar{width:280px;background:rgba(0,0,0,0.28);border-right:1px solid var(--border);padding:20px;backdrop-filter:blur(8px);display:flex;flex-direction:column;gap:14px}
+.model-config{display:flex;flex-direction:column;gap:10px}
 .main{flex:1;display:flex;flex-direction:column;padding:32px}
 #chat-container{flex:1;overflow-y:auto;max-width:850px;margin:0 auto;width:100%;padding-right:12px}
 .msg{margin-bottom:22px;line-height:1.7;white-space:pre-wrap;animation:fadeIn .35s;font-size:15px}
@@ -132,21 +133,31 @@ input{flex:1;background:transparent;border:none;color:white;outline:none;font-si
 select{background:#1e293b;color:white;border:1px solid var(--border);border-radius:8px;padding:6px;cursor:pointer}
 button{background:var(--accent);border:none;color:white;padding:8px 18px;border-radius:10px;cursor:pointer;font-weight:600}
 button[disabled]{opacity:.6;cursor:not-allowed}
+.legal-box{margin-top:auto;padding:12px;border:1px solid rgba(148,163,184,0.35);border-radius:10px;background:rgba(15,23,42,0.52);font-size:12px;line-height:1.45;color:#cbd5e1}
+.legal-box p{margin:0 0 8px 0}
+.tos-link{display:inline-block;color:#bfdbfe;text-decoration:none;font-weight:600}
+.tos-link:hover{text-decoration:underline}
 @keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
 @keyframes blink{50%{opacity:0}}
 ::-webkit-scrollbar{width:6px}::-webkit-scrollbar-thumb{background:var(--border);border-radius:10px}
+@media (max-width:900px){body{flex-direction:column;overflow:auto}.sidebar{width:auto;border-right:none;border-bottom:1px solid var(--border)}.main{padding:20px}.input-box{margin-top:12px}}
 </style>
 </head>
 <body>
-Cleverly is not responsible for damage
   <div class="sidebar">
-    <h2 style="margin:0 0 8px 0;letter-spacing:-1px">Cleverly</h2>
-    <p style="font-size:11px;color:#94a3b8;text-transform:uppercase;font-weight:800;margin:0 0 12px 0">Model Config</p>
-    <select id="modelSelect" aria-label="Model selection">
-      <option value="normal">Normal (Qwen)</option>
-      <option value="balanced">Balanced (Llama)</option>
-      <option value="fast">Fast (fastest)</option>
-    </select>
+    <div class="model-config">
+      <h2 style="margin:0;letter-spacing:-1px">Cleverly</h2>
+      <p style="font-size:11px;color:#94a3b8;text-transform:uppercase;font-weight:800;margin:0">Model Config</p>
+      <select id="modelSelect" aria-label="Model selection">
+        <option value="normal">Normal (Qwen)</option>
+        <option value="balanced">Balanced (Llama)</option>
+        <option value="fast">Fast (fastest)</option>
+      </select>
+    </div>
+    <div class="legal-box" role="note" aria-label="Legal notice">
+      <p>Cleverly is not responsible for damage.</p>
+      <a class="tos-link" href="https://github.com/agam1233/cleverly-development/blob/main/README.md" target="_blank" rel="noopener noreferrer">Terms of Service</a>
+    </div>
   </div>
 
   <div class="main">
