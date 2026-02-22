@@ -1,6 +1,3 @@
-pip install flask
-pip install ollama
-ollama pull qwen3:8b
-ollama pull llama3:8b
-ollama pull codellama:7b-instruct
-well actually make sure ollama is installed too
+Flask
+ollama
+gunicorn
