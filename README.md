@@ -1,6 +1,6 @@
 # Cleverly Terms of Service (TOS) 🛡️
 
-**Effective Date:** [2/22/26]
+**Effective Date:** 2/22/26
 
 Welcome to **Cleverly**, an open-source AI model. By accessing, using, or interacting with Cleverly, you agree to follow this Terms of Service (TOS). Please read it carefully. If you do not agree, do **not** use Cleverly.
 
@@ -12,14 +12,9 @@ Cleverly is an AI model built on the Ollama platform, designed for experimentati
 
 ---
 
-## 2. Eligibility
-- By using Cleverly, you confirm that you are capable of understanding and complying with these TOS.  
+## 2. Allowed Use
 
----
-
-## 3. Allowed Use
-
-You are granted a limited, non-exclusive, non-commercial license to:
+You are granted an unlimited, non-exclusive, non-commercial license to:
 
 1. Use Cleverly for personal, educational, or research purposes.  
 2. Modify, study, and experiment with the source code.  
@@ -27,7 +22,7 @@ You are granted a limited, non-exclusive, non-commercial license to:
 
 ---
 
-## 4. Prohibited Use
+## 3. Prohibited Use
 
 You **may not**:
 
@@ -40,7 +35,7 @@ You **may not**:
 
 ---
 
-## 5. Safety & Restrictions
+## 4. Safety & Restrictions
 
 - Cleverly includes built-in safety features from Ollama to limit harmful outputs.  
 - While Cleverly is designed to minimize risks, the AI **may generate incorrect or unsafe responses**.  
@@ -48,7 +43,7 @@ You **may not**:
 
 ---
 
-## 6. Intellectual Property
+## 5. Intellectual Property
 
 - Cleverly is open-source, but **ownership of the original code remains with the creator**.  
 - Modifications made by users **do not transfer ownership** of Cleverly itself.  
@@ -56,7 +51,7 @@ You **may not**:
 
 ---
 
-## 7. Disclaimer of Liability
+## 6. Disclaimer of Liability
 
 By using Cleverly:
 
@@ -65,20 +60,14 @@ By using Cleverly:
   - Data loss  
   - Software malfunctions  
   - Misuse by others  
-  - Legal consequences from your actions  
+  - Legal consequences from your actions
+  - Damage to property or person.
 
 Cleverly is provided **“as-is”** without warranties of any kind.  
 
 ---
 
-## 8. Termination
-
-The creator may terminate or suspend your access to Cleverly **at any time**, for any reason, including violation of these TOS.  
-- Upon termination, you must delete any copies of Cleverly and stop using it immediately.  
-
----
-
-## 9. Privacy
+## 7. Privacy
 
 - Cleverly may log usage data to improve functionality.  
 - Personal information **should not be shared with Cleverly**.  
@@ -86,7 +75,7 @@ The creator may terminate or suspend your access to Cleverly **at any time**, fo
 
 ---
 
-## 10. Updates to TOS
+## 8. Updates to TOS
 
 - The creator may update these TOS at any time.  
 - Continued use of Cleverly **after updates constitutes acceptance** of the new terms.  
@@ -94,14 +83,14 @@ The creator may terminate or suspend your access to Cleverly **at any time**, fo
 
 ---
 
-## 11. Governing Law
+## 9. Governing Law
 
-These TOS are governed by the laws of **[New Zealand]**.  
+These TOS are governed by the laws of **New Zealand**.  
 Any disputes arising from Cleverly will be resolved under this jurisdiction.  
 
 ---
 
-## 12. Contact
+## 10. Contact
 
 For questions, concerns, or legal inquiries regarding Cleverly TOS, contact:  
 **nasacool06@gmail.com**
