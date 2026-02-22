@@ -95,6 +95,7 @@ Any disputes arising from Cleverly will be resolved under this jurisdiction.
 For questions, concerns, or legal inquiries regarding Cleverly TOS, contact:  
 cleverlyai@proton.me
 
+WARNING: The open source code is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
 ---
 
 **By using Cleverly, you confirm that you have read, understood, and agree to comply with all sections of this TOS.**
