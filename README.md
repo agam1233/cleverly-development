@@ -8,4 +8,4 @@ rules:
 dont distrubite illegaily
 dont steal it
 dont replace it with a uncensored model
-Most of the AI was coded with ai.
+Most of the AI was coded with AI.
