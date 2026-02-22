@@ -1,3 +1,7 @@
 flask
 ollama
 gunicorn
+requests
+qwen3:8b
+llama3:8b
+codellama:7b-instruct
