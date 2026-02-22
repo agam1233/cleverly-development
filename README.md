@@ -13,8 +13,6 @@ Cleverly is an AI model built on the Ollama platform, designed for experimentati
 ---
 
 ## 2. Eligibility
-
-- You must be at least **13 years old** to use Cleverly.  
 - By using Cleverly, you confirm that you are capable of understanding and complying with these TOS.  
 
 ---
