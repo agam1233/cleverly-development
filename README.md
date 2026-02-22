@@ -93,7 +93,7 @@ Any disputes arising from Cleverly will be resolved under this jurisdiction.
 ## 10. Contact
 
 For questions, concerns, or legal inquiries regarding Cleverly TOS, contact:  
-**nasacool06@gmail.com**
+cleverlyai@proton.me
 
 ---
 
