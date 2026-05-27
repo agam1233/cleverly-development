@@ -1,4 +1,1 @@
-flask
-ollama
-gunicorn
-requests
+
